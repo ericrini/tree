@@ -1,9 +1,10 @@
 'use strict';
 
+var os = require('os');
 var assert = require('assert');
 var simple = require('simple-mock');
+
 var BPlusTree = require('./BPlusTree');
-var os = require('os');
 
 describe('The BPlusTree', function () {
     var tree;
@@ -15,7 +16,7 @@ describe('The BPlusTree', function () {
             return counter++;
         });
 
-        tree = new BPlusTree(2, true);
+        tree = new BPlusTree();
 
         tree.insert(3, '3*');
         tree.insert(5, '5*');

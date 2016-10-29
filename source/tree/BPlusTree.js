@@ -2,18 +2,20 @@
 
 var os = require('os');
 
-var Page = require('./Page');
+var MemoryProvider = require('../provider/MemoryProvider');
+var InternalNode = require('./InternalNode');
+var LeafNode = require('./LeafNode');
 
-var BPlusTree = function (order) {
-    this._order = order || 1;
-    this._root = new Page(this._order, true);
+var BPlusTree = function (provider) {
+    this._provider = provider || new MemoryProvider();
+    this._root = new LeafNode(this._provider);
 };
 
 BPlusTree.prototype.insert = function (key, value) {
     var split = this._root.insert(key, value);
 
     if (split) {
-        this._root = new Page(this._order, false);
+        this._root = new InternalNode(this._provider);
         this._root._keys.push(split[0]);
         this._root._values.push(split[1]);
         this._root._values.push(split[2]);
@@ -25,9 +27,8 @@ BPlusTree.prototype.find = function (left, right) {
 };
 
 BPlusTree.prototype.toString = function (last, intermediate) {
-    if (!last) {
-        return this.toString([this._root], '');
-    }
+    last = last || [this._root];
+    intermediate = intermediate || '';
 
     var next = [];
     var level = '';
@@ -37,23 +38,7 @@ BPlusTree.prototype.toString = function (last, intermediate) {
             level += ' ';
         }
 
-        if (last[i]._leaf) {
-            level += '(' + last[i]._id.slice(0, 3) + ')' + JSON.stringify(last[i]._values);
-        }
-        else {
-            var data = [];
-
-            for (var j = 0; j < last[i]._values.length; j++) {
-                data.push(last[i]._values[j]._id.slice(0, 3) + '*');
-
-                if (j < last[i]._keys.length) {
-                    data.push(last[i]._keys[j]);
-                }
-            }
-
-            level += '(' + last[i]._id.slice(0, 3) + ')' + JSON.stringify(data);
-        }
-
+        level += last[i].toString();
         next = next.concat(last[i]._values);
     }
 
