@@ -27,28 +27,7 @@
     <favorites_list name="Tree" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MemoryProvider.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/MemoryProvider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -66,6 +45,7 @@
         <option value="$PROJECT_DIR$/source/Page.js" />
         <option value="$PROJECT_DIR$/source/BPlusTree.test.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -232,23 +212,11 @@
       <updated>1477527265981</updated>
       <workItem from="1477527267151" duration="6229000" />
       <workItem from="1477540890901" duration="862000" />
-      <workItem from="1477693964493" duration="23590000" />
+      <workItem from="1477693964493" duration="23789000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Mocha - 2016.10.29 at 02h 31m 52s.xml">
-      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Mocha - 2016.10.29 at 02h 32m 13s.xml">
-      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Mocha - 2016.10.29 at 02h 32m 25s.xml">
-      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Mocha - 2016.10.29 at 02h 32m 33s.xml">
-      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="Mocha - 2016.10.29 at 02h 32m 58s.xml">
       <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
     </history-entry>
@@ -267,13 +235,25 @@
     <history-entry file="Mocha - 2016.10.29 at 02h 34m 20s.xml">
       <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="Mocha - 2016.10.29 at 02h 37m 46s.xml">
+      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Mocha - 2016.10.29 at 02h 39m 55s.xml">
+      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Mocha - 2016.10.29 at 02h 40m 20s.xml">
+      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Mocha - 2016.10.29 at 02h 40m 41s.xml">
+      <configuration name="Mocha" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30681000" />
+    <option name="totallyTimeSpent" value="30880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -365,14 +345,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/Leaf.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/BPlusTree.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -409,6 +381,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding />
         </state>
       </provider>
